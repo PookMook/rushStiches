@@ -9,3 +9,9 @@ export const defaultBBcodeStr = `[center][h1]Big text that can be [b]Bold[/b][/h
 [li]And autocorrrect[/li]
 [/ol]
 [h2]This looks like a success in the making[/h2]`;
+export {
+  ButtonAction,
+  ButtonCollection,
+  SlateBox,
+  Toolbar,
+} from './components/ui';
