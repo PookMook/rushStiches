@@ -1,0 +1,17 @@
+{
+ "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./out",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "src",
+    "module": "ES6"
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "./out",
+    "node_modules"
+  ]
+}
