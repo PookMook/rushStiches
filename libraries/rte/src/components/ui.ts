@@ -1,6 +1,9 @@
 /* eslint-disable no-useless-computed-key */
 import { styled } from '@welbi/ds';
 
+// Uncommenting the following line fix the not portable issue
+// import * as Stitches from '@stitches/react';
+
 export const EditorBox = styled('section', {
   border: '1px solid #ccc',
   borderRadius: '$normal',
