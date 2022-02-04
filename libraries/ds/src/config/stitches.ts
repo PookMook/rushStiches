@@ -10,7 +10,15 @@ function calculateScale(
   return effectiveStep ** step + unit;
 }
 
-const stitches = createStitches({
+export const {
+  styled,
+  theme,
+  getCssText,
+  globalCss,
+  createTheme,
+  keyframes,
+  config,
+} = createStitches({
   theme: {
     colors: {
       red: 'red',
@@ -36,18 +44,6 @@ const stitches = createStitches({
     },
   },
 });
-
-type Stiches = typeof stitches;
-
-export const {
-  styled,
-  theme,
-  getCssText,
-  globalCss,
-  createTheme,
-  keyframes,
-  config,
-} = stitches as Stiches;
 
 export const darkTheme = createTheme({
   colors: {
