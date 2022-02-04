@@ -7,18 +7,15 @@ importers:
 
   ../../libraries/ds:
     specifiers:
-      '@babel/core': ^7.0.0-0
       '@radix-ui/colors': ~0.1.7
       '@stitches/react': 1.2.6
       '@types/react': 17.0.20
       '@typescript-eslint/eslint-plugin': ^4.28.5
       '@typescript-eslint/parser': ^4.28.5
-      babel-plugin-module-resolver: ^4.1.0
       eslint: 7.31.0
       eslint-config-airbnb: ^18.2.1
       eslint-config-node: ^4.1.0
       eslint-config-prettier: ^8.3.0
-      eslint-import-resolver-babel-module: ^5.3.1
       eslint-plugin-import: ~2.23.4
       eslint-plugin-jsx-a11y: ^6.4.1
       eslint-plugin-react: ^7.24.0
@@ -36,16 +33,13 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@babel/core': 7.15.0
       '@types/react': 17.0.20
       '@typescript-eslint/eslint-plugin': 4.29.3_2bd6bd57372f0c556f3cf56680206192
       '@typescript-eslint/parser': 4.29.3_eslint@7.31.0+typescript@4.3.5
-      babel-plugin-module-resolver: 4.1.0
       eslint: 7.31.0
       eslint-config-airbnb: 18.2.1_0a2d6ffaa1a8da1f9347d2ce359585ad
       eslint-config-node: 4.1.0
       eslint-config-prettier: 8.3.0_eslint@7.31.0
-      eslint-import-resolver-babel-module: 5.3.1_414c5cd87c648b58195e29c4d908f757
       eslint-plugin-import: 2.23.4_eslint@7.31.0
       eslint-plugin-jsx-a11y: 6.4.1_eslint@7.31.0
       eslint-plugin-react: 7.24.0_eslint@7.31.0
